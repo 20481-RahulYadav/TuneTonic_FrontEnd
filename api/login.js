@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://tune-tonic-api.vercel.app/api/login';
+const API_BASE_URL = 'https://tune-tonic-api.vercel.app/login';
 
 $("#submit").click(async function (e) {
     e.preventDefault();

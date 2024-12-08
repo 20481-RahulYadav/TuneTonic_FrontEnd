@@ -17,7 +17,6 @@ debugger;
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({ username, email, password }),
-             mode: 'no-cors'
         });
 
         if (response.ok) {
