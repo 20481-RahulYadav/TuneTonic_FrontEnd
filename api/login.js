@@ -12,7 +12,8 @@ $("#submit").click(async function (e) {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ email, password })
+            body: JSON.stringify({ email, password }),
+            mode:"no-cors"
         });
 
         // Check if the response is OK (status code 2xx)
